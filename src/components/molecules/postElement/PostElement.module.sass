@@ -1,0 +1,54 @@
+.postElement
+  width: 344px
+  border-radius: 10px
+  transition: opacity 0.5s
+
+  .postElementImage
+    max-width: 100%
+    border-radius: 10px
+    height: auto
+    object-fit: contain
+    position: relative
+    margin: 0 auto
+    display: block
+
+  a
+    text-decoration: none
+
+  &:hover
+    opacity: 0.65
+
+  @media (max-width: 768px)
+    width: 100%
+
+  .postElementTitle
+    color: #850000
+    font-style: normal
+    font-weight: 600
+    font-size: 24px
+    line-height: 30px
+    margin-bottom: 17px
+
+  .postElementLabelsContainer
+    display: flex
+    margin-bottom: 16px
+
+  .postElementLabel
+    font-family: 'Inter', sans-serif
+    font-style: normal
+    font-weight: 700
+    font-size: 14px
+    display: flex
+    align-items: center
+    text-align: center
+    letter-spacing: 1px
+    color: #FF6600
+    background: rgba(255, 102, 0, 0.08)
+    border-radius: 16px
+    padding: 6px 12px
+    margin-right: 15px
+
+    &:last-child
+      margin-right: 0
+      margin-left: auto
+
